@@ -1,0 +1,13 @@
+services:
+  inkline-town:
+    build: .
+    image: inkline-town:latest
+    container_name: inkline-town
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    read_only: true
+    deploy:
+      resources:
+        limits:
+          memory: 32M

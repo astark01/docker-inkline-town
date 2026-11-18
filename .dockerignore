@@ -1,0 +1,15 @@
+**/node_modules
+**/dist
+**/.git
+**/.repos
+**/.alchemy
+**/.replays
+**/.env
+**/.env.*
+inkline-town/docs
+inkline-town/test
+inkline-town/output
+inkline-town/snapshots
+*.md
+Dockerfile
+compose.yaml
